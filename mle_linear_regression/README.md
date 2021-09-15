@@ -56,7 +56,7 @@
 
 # Hasil
 <p align="center">
-  <img src="https://github.com/amalinadhi/mle_linear_regression/blob/main/results.png"/>
+  <img src="https://github.com/amalinadhi/machine_learning/blob/main/mle_linear_regression/results.png"/>
   <br>
   Garis biru mengindikasikan MLE Linear Regression. Kok gak fit (?) Haha :smile:
 </p>
