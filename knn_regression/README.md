@@ -55,6 +55,6 @@ jarak_ = jarak(X_test[i], X_train[j], metode="euclidean")
 - Kita coba prediksi data test mengikuti data training yang tersedia.
 - Anda dapat mengatur data test Anda pada line `98`.
 - Setelah program dijalankan, didapatkan hasil sebagai berikut.
-![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/final_gambar.png)
+![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/final_gambar_.png)
 - Disini terlihat adanya beda "skala" antara `age` dengan `bmd`.
 - Apa perlu di skala-kan? :smile:
