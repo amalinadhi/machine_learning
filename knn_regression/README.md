@@ -11,6 +11,8 @@
     </a>
 </p>
 
+- Dari gambar di atas, nilai ("+") didapat dengan merata-ratakan nilai dari 3 observasi data dalam lingkaran
+
 # **Bagaimana mencari tetangga terdekat?**
 - Anda dapat menggunakan fungsi jarak untuk mencarinya.
 - Ada banyak fungsi jarak seperti:
