@@ -5,7 +5,7 @@ import pandas as pd
 
 
 # FUNCTIONS
-def jarak(x_1, x_2, metode="eucledian"):
+def jarak(x_1, x_2, metode="euclidean"):
     """
     Fungsi untuk menghitung jarak antara 2 titik observasi x_1 dan x_2
 
@@ -18,7 +18,7 @@ def jarak(x_1, x_2, metode="eucledian"):
     Output:
         hasil   (float)     : jarak antara 2 titik observasi
     """
-    if metode=="eucledian":
+    if metode=="euclidean":
         hasil = np.sqrt(np.sum((x_1 - x_2)**2))
     elif metode=="manhattan":
         hasil = np.sqrt(np.sum(np.abs(x_1 - x_2)))
@@ -56,8 +56,8 @@ def knnClassification(X_train, y_train, X_test, k):
         # kita cari tetangga terdekatnya
         list_jarak = np.zeros(n)
         for j in range(n):
-            # pencarian jarak menggunakan eucledian
-            jarak_ = jarak(X_test[i, :], X_train[j, :], metode="eucledian")   
+            # pencarian jarak menggunakan euclidean
+            jarak_ = jarak(X_test[i, :], X_train[j, :], metode="euclidean")   
             list_jarak[j] = jarak_
 
         # Cari k tetangga terdekat
