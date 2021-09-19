@@ -46,17 +46,19 @@ jarak_ = jarak(X_test[i], X_train[j], metode="euclidean")
 
 # **Hasil**
 - Kita akan bermain dengan data BMD (Bone Mass Density)
-![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/gambar_data_bmd.png)
+![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/hasil/gambar_data_bmd.png)
 
 - Selanjutnya, kita ingin memprediksi `bmd` berdasarkan fitur `age`.
 - Kita memiliki gambaran observasi datanya sebagai berikut.
-![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/initial_gambar.png)
+![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/hasil/initial_gambar.png)
 
 - Data terlihat sedikit aneh, karena `age` nya bersifat kontinu (?), maksudnya ada `age` yang bernilai rasional, seperti: 45.2 tahun.
 - Tapi gak masalah, kita cuman nyoba saja.
 - Kita coba prediksi data test mengikuti data training yang tersedia. Anda dapat mengatur data test Anda pada line `98`.
 - Setelah program dijalankan, didapatkan hasil sebagai berikut.
-![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/final_gambar_.png)
-- Cukup overfit nampaknya ...
+![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/hasil/final_gambar_k=3.png)
+- Cukup overfit nampaknya, karena kita pakai `k=3`. Selanjutnya kita coba `k=15`, berikut hasilnya.
+![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/hasil/final_gambar_k=15.png)
+- Terlihat lebih "generalized"
 - Disini terlihat adanya beda "skala" antara `age` dengan `bmd`.
 - Apa perlu di skala-kan? :smile:
