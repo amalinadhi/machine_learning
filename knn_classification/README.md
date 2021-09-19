@@ -4,7 +4,7 @@
 - Intuisinya adalah mencari "votes" terbanyak dalam <img src="https://render.githubusercontent.com/render/math?math=k"> observasi.
 - Kategori/*class* terbanyak dalam <img src="https://render.githubusercontent.com/render/math?math=k"> observasi akan menjadi kategori data yang diinginkan.
 - Penentuan <img src="https://render.githubusercontent.com/render/math?math=k"> observasi didapat dari perhitungan jarak terdekat dengan data yang diinginkan.
-- **Jarak** sendiri dapat menggunakan *eucledian*, *manhattan* atau lainnya bergantung kebutuhan.
+- **Jarak** sendiri dapat menggunakan *euclidean*, *manhattan* atau lainnya bergantung kebutuhan.
 
 <p align="center">
     <img src="https://miro.medium.com/max/1400/1*9mN0mO61lmoj0-95i-vV7A.png"/>
@@ -27,9 +27,9 @@
 
 
 ```python 
-jarak_ = jarak(X_test[i, :], X_train[j, :], metode="eucledian")
+jarak_ = jarak(X_test[i, :], X_train[j, :], metode="euclidean")
 ```
-- Anda dapat mengubah nilai argumen `metode` menjadi `eucledian` atau `manhattan` (saat ini hanya tersedia 2 metode)
+- Anda dapat mengubah nilai argumen `metode` menjadi `euclidean` atau `manhattan` (saat ini hanya tersedia 2 metode)
 - Apabila **ingin menambahkan fungsi jarak**, Anda dapat menambahkannya pada fungsi `jarak` (lihat line `8` - `26`)
 
 # **Cara mengatur jumlah tetangga**
