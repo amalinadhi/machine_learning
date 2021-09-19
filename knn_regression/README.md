@@ -52,9 +52,9 @@ jarak_ = jarak(X_test[i], X_train[j], metode="euclidean")
 
 - Data terlihat sedikit aneh, karena `age` nya bersifat kontinu (?), maksudnya ada `age` yang bernilai rasional, seperti: 45.2 tahun.
 - Tapi gak masalah, kita cuman nyoba saja.
-- Kita coba prediksi data test mengikuti data training yang tersedia.
-- Anda dapat mengatur data test Anda pada line `98`.
+- Kita coba prediksi data test mengikuti data training yang tersedia. Anda dapat mengatur data test Anda pada line `98`.
 - Setelah program dijalankan, didapatkan hasil sebagai berikut.
 ![](https://github.com/amalinadhi/machine_learning/blob/main/knn_regression/final_gambar_.png)
+- Cukup overfit nampaknya ...
 - Disini terlihat adanya beda "skala" antara `age` dengan `bmd`.
 - Apa perlu di skala-kan? :smile:
