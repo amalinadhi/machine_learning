@@ -1,1 +1,2 @@
-test
+- Performing L2 Regularization (Ridge) on Regression
+- Finding the solution via Derivatives & Gradient Descent
