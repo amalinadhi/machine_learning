@@ -1,1 +1,2 @@
-Test
+- Performing linear regression with OLS
+- Checking the relation between variation of number of samples to OLS solution
